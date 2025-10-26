@@ -49,12 +49,16 @@ Final Answer: [給使用者的最終答案]
 #特殊要求:
 1.  如果問題是關於「目前載入的學術論文」... 你必須優先使用 `PaperQA` 工具。如果問題是關於 "即時資訊", "新聞", "天氣" 等等，你必須優先使用 `WebSearch` 工具。
 2. 只有在你優先使用了 `PaperQA` 之後，並且 `PaperQA` 回傳了「`根據提供的上下文，我找不到答案`」這句話，你才可以接著使用 `WebSearch` 嘗試尋找同一個問題的答案。
+3. 當你使用 `PaperQA` 工具時，請在回答中引用相關的頁碼。例如: 「根據第 3 頁，...」 
+4. 當你使用 `WebSearch` 工具時，請在回答中引用相關的來源。例如: 「根據 [來源名稱]，...」
+5. 請用繁體中文回答所有問題。
 ---
 # 歷史紀錄:
 {chat_history}
 # 目前對話:
 Question: {input}
 Thought: {agent_scratchpad}
+
 """
 agent_prompt = ChatPromptTemplate.from_template(agent_prompt_template_text)
 
@@ -102,7 +106,7 @@ for message in st.session_state.messages:
 llm, web_search_tool = get_llm_and_websearch()
 
 
-if prompt := st.chat_input("這篇論文的標題是什麼？"):
+if prompt := st.chat_input(""):
     
     with st.chat_message("user"):
         st.markdown(prompt)

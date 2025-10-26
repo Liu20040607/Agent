@@ -28,7 +28,7 @@ def get_default_retriever():
         persist_directory="./chroma_db", 
         embedding_function=get_embedding_model()
     )
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
     print("載入完畢")
     return retriever
 
