@@ -6,9 +6,8 @@
 
 ##  Demo 演示
 
-( **非常重要！** 在這裡嵌入你錄製的 `demo.gif`，或者貼上 `demo.mp4` 的連結。如果是 GIF，可以直接用 Markdown 語法嵌入，確保 `demo.gif` 也已上傳到 Repo)：
 <!-- ```markdown -->
-[![Demo GIF](demo.gif)]
+[[觀看專案 Demo 影片]]((https://www.youtube.com/watch?v=LzKNy8TuxbQ))
 
 ---
 ## 核心功能
