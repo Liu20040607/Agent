@@ -4,10 +4,10 @@
 
 ---
 
-##  Demo 演示
+##  Demo 展示
 
 <!-- ```markdown -->
-[![觀看專案 Demo 影片]]([你的_MP4_影片_公開分享連結](https://www.youtube.com/watch?v=LzKNy8TuxbQ))
+[Demo 展示](https://www.youtube.com/watch?v=LzKNy8TuxbQ)
 
 ---
 ## 核心功能
