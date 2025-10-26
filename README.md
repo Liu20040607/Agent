@@ -7,7 +7,7 @@
 ##  Demo 演示
 
 <!-- ```markdown -->
-[[觀看專案 Demo 影片]]((https://www.youtube.com/watch?v=LzKNy8TuxbQ))
+[![觀看專案 Demo 影片]]([你的_MP4_影片_公開分享連結](https://www.youtube.com/watch?v=LzKNy8TuxbQ))
 
 ---
 ## 核心功能
