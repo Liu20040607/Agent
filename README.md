@@ -9,6 +9,8 @@
 <!-- ```markdown -->
 [Demo 展示](https://www.youtube.com/watch?v=LzKNy8TuxbQ)
 
+[線上體驗Demo](https://yicheng-ai-agent.streamlit.app/)
+
 ---
 ## 核心功能
 本專案的 AI Agent 整合了多項技術，具備以下核心能力：
